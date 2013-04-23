@@ -1,0 +1,9 @@
+<a href='/'>Cateogries</a>
+<h1> POSTS!</h1>
+<% if @post %>
+<p>Price: $<%= @post.price %></p>
+<br>
+<p>Description: <%= @post.description %></p>
+<br>
+<p>Secret Key: <%=@post.secret_key%></p>
+<% end %>
